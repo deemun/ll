@@ -1,0 +1,11 @@
+def bubblesorter(array)
+	
+
+
+
+
+
+end
+	
+
+
