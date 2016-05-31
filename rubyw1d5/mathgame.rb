@@ -9,7 +9,7 @@ def player1
 	loop do
 		first_number = rand(20)
 		second_number = rand(20)
-		puts "Round#{ $round_count += 1 }: Player #{ 1+ ($round_count + 1 % 2) } what does #{first_number} plus #{second_number}"
+		puts "Round#{ $round_count += 1 }: Player #{ 1 +($round_count + 1 % 2) } what does #{first_number} plus #{second_number}"
 		input = gets.chomp
 		
 		if input.to_i == first_number + second_number
